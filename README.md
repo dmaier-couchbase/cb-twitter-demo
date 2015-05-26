@@ -1,6 +1,6 @@
 # cb-twitter-demo
 
-A file twitter.properties need to be created in the src directory (root package and so root class path). It should contain the following properties:
+A file twitter.properties need to be created in the src/main/java directory (root package and so root class path). It should contain the following properties:
 
 ```
 token.access=xyz
