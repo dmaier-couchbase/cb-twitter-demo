@@ -1,4 +1,4 @@
-# Couchbase Twitter demo
+# Couchbase Twitter Demo
 
 This is just a simple example application which shows how to load twitter feeds from your account into Couchbase. You need to have a Twitter Application in order to get started (http://apps.twitter.com). The application authentication details can then be used in order to access your twitter account.
 
