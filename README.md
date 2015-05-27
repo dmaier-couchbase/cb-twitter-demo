@@ -33,7 +33,7 @@ The following properties are stored:
 * Id (as part of the key)
 * Tags (optional)
 * First mentioned URL (optional)
-* Lenth of the message
+* Length of the message
 
 The idea of the demo is just to fill a Couchbase bucket with some meaningful demo data. Because old tweets are skipped you can easily create new tweets on side of Twitter and then rerun the tool. This will give you new items in your Couchbase cluster. An example demonstration regarding real-time analysis with Couchbase and Elasticsearch could be:
 
