@@ -35,5 +35,14 @@ The following properties are stored:
 * First mentioned URL (optional)
 * Lenth of the message
 
-The idea of the demo is just to fill a Couchbase bucket with some meaningful demo data.
+The idea of the demo is just to fill a Couchbase bucket with some meaningful demo data. Because old tweets are skipped you can easily create new tweets on side of Twitter and then rerun the tool. This will give you new items in your Couchbase cluster. An example demonstration regarding real-time analysis with Couchbase and Elasticsearch could be:
+
+* Run the tool
+* Show the tweets in a Couchbase Bucket - Couchbase is used as a database which supports hundreds of thousands of operations per second whereby Elasticsearch is used for full-text indexing.
+* Index the feeds by using XDCR/Couchbase's Elasticsearch plug-in
+* Show a Kibana report regarding the occourence of Couchbase in the message text
+* Create a new Twitter feed
+* Run the tool again
+* Show how the value changed in your report
+
 
